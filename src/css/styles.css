@@ -85,3 +85,44 @@ button:disabled {
 .label {
   text-transform: uppercase;
 }
+/* snackbar */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+}
+.form input {
+  width: 100%;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form fieldset {
+  display: flex;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  gap: 48px;
+  justify-content: center;
+  padding: 24px 28px 16px;
+}
+
+.form fieldset:hover,
+.form fieldset:focus {
+  border: 1px solid #000000;
+}
+.form fieldset label {
+  display: flex;
+}
+.form input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.form button {
+  width: 100%;
+}
